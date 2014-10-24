@@ -61,7 +61,7 @@ UIParameters ui_parameters = {
     6,       // indeterminate progress bar frames
     20,      // fps
     7,       // installation icon frames (0 == static image)
-    13, 190, // installation icon overlay offset
+    7, 95,   // installation icon overlay offset
 };
 
 static pthread_mutex_t gUpdateMutex = PTHREAD_MUTEX_INITIALIZER;
